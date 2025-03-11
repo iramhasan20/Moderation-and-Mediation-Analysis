@@ -9,3 +9,13 @@ The code is structured under the following sections for both moderation and medi
 3. Moderation Analysis
 4. Mediation Analysis
 5. Robustness Assessment
+
+The following Python libraries are utilized in this analysis:
+
+1. pandas: Handles data manipulation, including reading datasets, renaming variables, and computing correlation matrices.
+2. numpy: Supports numerical operations, including statistical computations for hypothesis testing.
+3. statsmodels.api: Provides statistical modeling and regression analysis.
+4. statsmodels.formula.api: Enables formula-based regression modeling.
+5. statsmodels.stats.outliers_influence: Computes Variance Inflation Factor (VIF) for multicollinearity checks.
+6. linearmodels.panel: Implements panel data econometric models, including Random Effects regression.
+7. scipy.stats: Facilitates statistical hypothesis testing, including the Sobel test for mediation analysis.
